@@ -8,8 +8,9 @@ import SearchPage from './SearchPage';
 function App() {
   return (
     <div className="app">
-      <Header></Header>
+      
       <BrowserRouter>
+        <Header></Header>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/search" element={<SearchPage></SearchPage>}></Route>
